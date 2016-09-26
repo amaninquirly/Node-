@@ -1,0 +1,213 @@
+﻿{
+	"campaign": {
+		"cards": [{
+			"added_on": "2016-03-07 04:28:31.149843",
+			"category": "FEEDBACK",
+			"description": "Feedback Card description",
+			"form_attributes": {
+				"questions": [{
+					"_active": false,
+					"active": false,
+					"id": 1,
+					"options": [{
+						"id": 1,
+						"score": 10,
+						"value": "Hollywood"
+					}, {
+						"id": 2,
+						"score": 8,
+						"value": "Bollywood"
+					}],
+					"score": 10,
+					"text": "Which type of movie you like most?",
+					"type": "single_choice"
+				}, {
+					"_active": false,
+					"active": false,
+					"id": 1176459351554513000,
+					"options": [{
+						"id": 8380880043841898000,
+						"score": 5,
+						"value": "Kit kat"
+					}, {
+						"id": 4820556109771133000,
+						"score": 5,
+						"value": "Dariy milk"
+					}],
+					"score": 10,
+					"text": "Which choclate you like most?",
+					"type": "multiple_choice"
+				}, {
+					"_active": false,
+					"active": false,
+					"id": 3351235152222216000,
+					"options": [{
+						"id": 6726768873631954000,
+						"score": 0,
+						"value": ""
+					}],
+					"score": 10,
+					"text": "Can kohli become one day team caption in future",
+					"type": "feedback_choice"
+				}, {
+					"_active": false,
+					"active": false,
+					"id": 4134293252136558000,
+					"options": [{
+						"id": 6785134568344801000,
+						"score": 2,
+						"value": "1-star"
+					}, {
+						"id": 7849586955271662000,
+						"score": 4,
+						"value": "2-star"
+					}, {
+						"id": 9773556522559375000,
+						"score": 6,
+						"value": "3-star"
+					}, {
+						"id": 6687411526218057000,
+						"score": 8,
+						"value": "4-star"
+					}, {
+						"id": 5012500234879554000,
+						"score": 10,
+						"value": "5-star"
+					}],
+					"score": 10,
+					"text": "How much you rate us system?",
+					"type": "rating_choice"
+				}, {
+					"_active": false,
+					"active": true,
+					"id": 8225084107834846000,
+					"options": [{
+						"id": 6010529617778957000,
+						"image_src": "http://happybirthdaycakeimages.com/wp-content/uploads/2015/05/Yummy-Chocolate-Birthday-Cake.jpg",
+						"key": "choclate",
+						"score": 0,
+						"value": "Choclate"
+					}, {
+						"id": 9659401171375065000,
+						"image_src": "http://happybirthdaycakeimages.com/wp-content/uploads/2015/05/Vanilla-Birthday-Cake-Photo.jpg",
+						"key": "vanilla",
+						"score": 0,
+						"value": "Vanilla"
+					}, {
+						"id": 5570395332761108000,
+						"image_src": "http://www.bojoscreations.com/files/QuickSiteImages/DVD_Photos__129__op_760x901.jpg",
+						"key": "milk with choclate",
+						"score": 0,
+						"value": "milk with choclate"
+					}, {
+						"id": 3834444570820778500,
+						"image_src": "http://happybirthdaycakeimages.com/wp-content/uploads/2015/05/Strawberry-Birthday-Cake.jpg",
+						"key": "straw berry",
+						"score": 0,
+						"value": "Straw berry"
+					}, {
+						"id": 3589724977500736500,
+						"image_src": "http://happybirthdaycakeimages.com/wp-content/uploads/2015/05/Pink-Birthday-Cake.jpg",
+						"key": "pure choclate",
+						"score": 0,
+						"value": "pure choclate"
+					}, {
+						"id": 3845483006443828000,
+						"image_src": "http://happybirthdaycakeimages.com/wp-content/uploads/2015/05/Mixed-Flavoured-Birthday-Cake.jpg",
+						"key": "pink choclate",
+						"score": 0,
+						"value": "Pink choclate"
+					}, {
+						"id": 4772506684530526000,
+						"image_src": "http://happybirthdaycakeimages.com/wp-content/uploads/2015/05/Mixed-Chocolate-Birthday-Cake.jpg",
+						"key": "Mixed flavour",
+						"score": 0,
+						"value": "Mixed flavour"
+					}, {
+						"id": 7293258421123028000,
+						"image_src": "http://happybirthdaycakeimages.com/wp-content/uploads/2015/05/Gems-Birthday-Cake-Image.jpg",
+						"key": "Gems Choclate",
+						"score": 0,
+						"value": "Gems choclate"
+					}, {
+						"id": 2262071880977600800,
+						"image_src": "http://happybirthdaycakeimages.com/wp-content/uploads/2015/05/Fruit-Cake-Pics.jpg",
+						"key": "Fruit choclate",
+						"score": 0,
+						"value": "Fruit choclate"
+					}, {
+						"id": 937860968988388700,
+						"image_src": "http://happybirthdaycakeimages.com/wp-content/uploads/2015/05/Delicious-Birthday-Cake-Pics.jpg",
+						"key": "choco berry",
+						"score": 0,
+						"value": ""
+					}, {
+						"id": 643137705046683500,
+						"image_src": "http://happybirthdaycakeimages.com/wp-content/uploads/2015/05/Cute-Birthday-Cake-Pics.jpg",
+						"key": "crunch milk",
+						"score": 0,
+						"value": ""
+					}, {
+						"id": 4851346486248076000,
+						"image_src": "http://happybirthdaycakeimages.com/wp-content/uploads/2015/05/Chocolate-Vanilla-Birthday-Cake.jpg",
+						"key": "choco nut",
+						"score": 0,
+						"value": ""
+					}],
+					"score": 10,
+					"text": "Which cake you like most",
+					"type": "picture_choice"
+				}]
+			},
+			"icon_html": "<span class='fa fa-check-square-o'></span>",
+			"id": "9d27afd2-3954-4c24-9afb-8dc078500c25",
+			"inline_email": false,
+			"is_active": true,
+			"is_required": false,
+			"is_valid": true,
+			"name": "FEEDBACK",
+			"path": "/campaigns/cards/feedback",
+			"style": {},
+			"supports_theme": false,
+			"title": "Version 2 Campaign Feedback ",
+			"tooltip": "Feedback Card",
+			"view_attributes": {
+				"action_label": "Start",
+				"aspect_ratio": {
+					"value": "1:1"
+				},
+				"description": {
+					"value": "All about your likes"
+				},
+				"image_src": {
+					"value": "http://ragamusic.net/images/feedback.jpg"
+				},
+				"pictureRows": {
+					"8225084107834846000": [
+						[
+							0,
+							1,
+							2,
+							3
+						],
+						[
+							4,
+							5,
+							6,
+							7
+						],
+						[
+							8,
+							9,
+							10,
+							11
+						]
+					]
+				},
+				"title": {
+					"value": "You Test We Care"
+				}
+			}
+		}]
+	}
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <script type="text/javascript">
+    var list = [];
+    function addArray(){
+      var noOfitems = list.length;
+      list[noOfitems] =  document.getElementById("txtValue").value;
+      disPlayResult();
+      takeExp(num,exp);
+    }
+    function disPlayResult(){
+      var n = list.length;
+      document.getElementById("itemcount").innerHTML = "No of items " + n.toString();
+      var ItemList = document.getElementById('itemlist');
+      while(ItemList.hasChildNodes()){
+        ItemList.removeChild(ItemList.lastChild);
+      }
+      for (var i = 0 ; i< n ; i++){
+        var newDiv = document.createElement("div");
+        newDiv.innerHTML = "item" + (i + 1).toString() + "of" + n.toString() + "is" + 
+        " " + list[i];
+        ItemList.appendChild(newDiv);
+      }
+    }
+    function takeExp(num,exp){
+      var value = num ;
+      for(i = 1; i< exp ; i++){
+        value = value*num;
+      }
+      return value;
+    }
+    function ucFirst(str) {
+
+      var newStr = str.charAt(0).toUpperCase()
+      for(var i=1; i<str.length; i++) {
+
+        newStr = newStr+ str.charAt(i)
+      }
+      return newStr
+
+    }
+
+
+
+    alert( ucFirst("john") )
+
+//alert (value);
+</script>
+</head>
+<body>
+  <table>
+    <tr>
+      <td>
+        Enter any value:
+      </td>
+      <td>
+        <input type="text" id="txtValue"> </input>
+      </td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>
+        <input type="button" value = "AddArray" onclick="addArray();"> </input>
+      </td>
+    </tr> 
+  </table>
+  <div id ="itemcount"></div>
+  <div id ="itemlist"></div>
+</body>
+</html>

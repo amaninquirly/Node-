@@ -1,0 +1,233 @@
+.P0 { padding: 0px;}
+
+.Pl0 {padding-left: 0px;}
+
+.Pr0 {padding-right: 0px;}
+
+.M0 { margin: 0px;}
+
+.P0M0 { padding: 0px; margin: 0px;}
+
+.fnt-sm{ font-size: 14px;}
+
+.fnt-md{ font-size: 16px;}
+
+.fnt-lg{ font-size: 20px;}
+
+.fnt-white{ color: #FFFFFF;}
+
+.fnt-red{color: #F67466;}
+
+.fnt-gray{color: #A5A5A5;}
+
+.fnt-lit-gray{color: #E2DEDB;}
+
+.align-cen{text-align: center;}
+
+.main-container{
+	background: #C57665; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(to bottom left, #CBB492, #C57665); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(to bottom left, #CBB492, #C57665); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(to bottom left, #CBB492, #C57665); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to bottom left, #CBB492, #C57665); /* Standard syntax */
+}
+.contact-wrapper{
+	margin: 30px 0px 30px 0px;
+	background-color: white;
+	box-shadow: 0px 0px 10px 2px #A28A70;
+	border-radius: 4px;
+	height: 100vh;
+}
+.nav-bar{
+	background-color: #776B5D;
+	min-height: 100px;
+	border-radius: 4px 4px 0px 0px;
+}
+.tab-bar{
+	background-color: #F47564;
+	text-align: center;
+	border-right: 1px solid #F9998D;
+	line-height: 70px;
+	cursor: pointer;
+}
+.tab-bar.active:after{
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    left: 60px;
+    border-width: 15px 15px 0;
+    border-style: solid;
+    border-color: #F47564 transparent;
+    display: block;
+    width: 0;
+}
+.border-none{
+	border-right: none;
+}
+.dp-wrapper{
+	width: 60px;
+	height: 60px;
+	background-image: url(../images/user-avatar.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	border-radius: 50px;
+	border: 2px solid #FFFFFF;
+	display: inline-block;
+}
+.action-wrapper{
+	padding: 10px 15px;
+}
+.action{
+	margin-right: 10px;
+	background-color: #ACA39C;
+	width: 15px;
+	height: 15px;
+	border-radius: 50px;
+	display: inline-block;
+}
+.owner-container{
+	padding-bottom: 15px;
+}
+.btn-action-wrapper{
+	text-align: right;
+	margin-top: 15px;
+}
+.btn-action{
+	border: 1px solid #695D4F;
+	background-color: #7F7365;
+	color: #FFFFFF;
+	font-size: 16px;
+	outline: none;
+	position: relative;
+	margin-right: 6px;
+}
+.btn-action:hover, .btn-action:focus{
+	color: #FFFFFF;
+	outline: none;
+}
+button{
+	outline: none;
+	box-shadow: none;
+}
+
+.badge.b-count{
+	background-color:#FE887A;
+	color:#FFFFFF;
+	position: absolute;
+	top: -10px;
+    right: -6px;
+}
+
+.search-wrapper{
+  	padding:25px;
+}
+.input-wrapper{
+	border: 1px solid #E4E0E1;
+	height: 42px;
+	border-radius: 25px;
+}
+.input-wrapper .fa-search{
+	color: #E1DDDC;
+	font-size: 20px;
+	margin-top: 9px;
+}
+.input-wrapper .fa-repeat{
+	color: #E1DDDC;
+	font-size: 20px;
+	margin-top: 9px;
+}
+.input-search{
+	border: none;
+	outline: none;
+	box-shadow: none;
+	height: 40px;
+}
+.search-wrapper input[type="text"]:focus, .search-wrapper input[type="text"]:hover{
+	outline: none;
+	border: none;
+	box-shadow: none;
+}
+.list-wrapper{
+	background-color: #FFFFFF;
+	max-height: 400px;
+	overflow-y: auto;
+}
+.seperator{
+	border-top: 1px solid #F1EDEE;
+	height: 100px;
+	padding: 15px 10px;
+	cursor: pointer;
+}
+.seperator.selected{
+	background-color: #F7F7F7;
+}
+
+.hexagon {
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 35px;
+	position: relative;
+	color: #FFFFFF;
+	margin-top: 15px;
+}	
+.h-violet{
+	background-image: url(../images/violet_hexagon.png);
+}
+.h-blue{
+	background-image: url(../images/blue_hexagon.png);
+}
+
+.hexagon .fa.fa-trophy{
+	position: absolute;
+    top: 10px;
+	left: 9px;
+}
+.hexagon .fa.fa-thumbs-up{
+	position: absolute;
+	top: 8px;
+    left: 10px;
+}
+.list-wrapper .dp-wrapper{
+	border: none;
+	height: 70px;
+	width: 70px;
+}
+
+.list-wrapper .fa.fa-check-square{
+	color: #D0C9C3;
+	margin-top: 20px;
+	font-size: 30px;
+}
+
+.list-wrapper .fa.fa-plus-square{
+	color: #FA8272;
+	margin-top: 20px;
+	font-size: 30px;
+}
+.contact-dropdown{
+    background-color: transparent;
+    color: #FFFFFF;
+    font-size: 24px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+.tag-wrapper{
+	background-color: transparent;
+	color: #FFFFFF;
+	font-size: 16px;
+}
+
+body ::-webkit-scrollbar{
+  width: 8px;
+  height: 8px;
+}
+
+body ::-webkit-scrollbar-track{
+  background: #E5E5E5;
+  border-radius: 8px; 
+}
+
+body ::-webkit-scrollbar-thumb{
+  background: #CFCCCB;
+  border-radius: 8px; 
+}

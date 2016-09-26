@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Array Text</title>
+  <script type="text/javascript">
+    var arry = Array(4);
+    arry[0] = "Aman";
+    arry[1] = "Saurav";
+    arry[2] = "Anjan";
+    arry[2] = "Ravi";
+    function displayArray(){
+      for( var i = 0 ; i< arry.length;i++){
+        var ResultDiv = document.getElementById("newArray");
+        var newDiv = document.createElement("div");
+        newDiv.innerHTML = "item" + (i + 1).toString() + "of" + arry.length.toString() + "is" + arry[i];
+        ResultDiv.appendChild(newDiv);
+      }
+    }
+  </script>
+</head>
+<body>
+  <input type="button" value = "ShowArray" onclick="displayArray();"> </input>
+  <div id = "newArray"></div>
+</body>
+</html>
